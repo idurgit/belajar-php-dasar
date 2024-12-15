@@ -1,0 +1,25 @@
+<?php
+
+$name = "Jaka";
+// $name = null;
+
+$age = null;
+
+echo "Name : "; 
+echo $name;
+echo "\n";
+
+echo "Age : ";
+echo $age; 
+echo "\n";
+
+echo "Is Name Null? : ";
+echo is_null($name);
+echo "\n";
+var_dump(is_null($name));
+echo "\n";
+
+$contoh = "jaka";
+unset($contoh);
+
+var_dump(isset($contoh));
